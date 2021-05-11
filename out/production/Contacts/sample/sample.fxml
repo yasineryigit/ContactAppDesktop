@@ -52,7 +52,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -142,14 +142,14 @@
                                     <Label text="SURNAME" GridPane.rowIndex="1" />
                                     <Label text="BIRTHDAY" GridPane.rowIndex="2" />
                                     <Label text="E-MAIL ADDRESS " GridPane.rowIndex="3" />
-                                    <Label text="TELEFON" GridPane.rowIndex="4" />
+                                    <Label text="PHONE NUMBER" GridPane.rowIndex="4" />
                                     <Label text="ADDRESS" GridPane.rowIndex="5" />
                                     <Label text="POSTAL CODE" GridPane.rowIndex="6" />
                                     <Label text="CITY" GridPane.rowIndex="7" />
                                     <TextField fx:id="textFieldNAME" GridPane.columnIndex="1" />
                                     <TextField fx:id="textFieldSURNAME" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                                    <DatePicker fx:id="dataTimePickerBIRTHDAY" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                                    <TextField fx:id="textfieldMAILADDRESS" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                    <DatePicker fx:id="datePickerBIRTHDAY" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <TextField fx:id="textFieldMAILADDRESS" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                                     <TextField fx:id="textFieldPHONENUMBER" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                                     <TextField fx:id="textFieldADDRESS" GridPane.columnIndex="1" GridPane.rowIndex="5" />
                                     <TextField GridPane.columnIndex="1" GridPane.rowIndex="6" />
