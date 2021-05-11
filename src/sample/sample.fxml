@@ -149,10 +149,10 @@
                                     <TextField fx:id="textFieldNAME" GridPane.columnIndex="1" />
                                     <TextField fx:id="textFieldSURNAME" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                                     <DatePicker fx:id="datePickerBIRTHDAY" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                                    <TextField fx:id="textFieldMAILADDRESS" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                    <TextField fx:id="textFieldEMAILADDRESS" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                                     <TextField fx:id="textFieldPHONENUMBER" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                                     <TextField fx:id="textFieldADDRESS" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                                    <TextField GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                    <TextField fx:id="textFieldPOSTALCODE" GridPane.columnIndex="1" GridPane.rowIndex="6" />
                                     <TextField fx:id="textFieldCITY" GridPane.columnIndex="1" GridPane.rowIndex="7" />
                                  </children>
                                  <VBox.margin>
@@ -161,22 +161,22 @@
                               </GridPane>
                               <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="buttonNEW" mnemonicParsing="false" text="NEW">
+                                    <Button fx:id="buttonNEW" mnemonicParsing="false" onAction="#buttonNew" text="NEW">
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="buttonADD" mnemonicParsing="false" text="ADD">
+                                    <Button fx:id="buttonADD" mnemonicParsing="false" onAction="#buttonAdd" text="ADD">
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="buttonUPDATE" mnemonicParsing="false" text="UPDATE">
+                                    <Button fx:id="buttonUPDATE" mnemonicParsing="false" onAction="#buttonUpdate" text="UPDATE">
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="buttonDELETE" mnemonicParsing="false" text="DELETE">
+                                    <Button fx:id="buttonDELETE" mnemonicParsing="false" onAction="#buttonDelete" text="DELETE">
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
